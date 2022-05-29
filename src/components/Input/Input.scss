@@ -1,0 +1,37 @@
+@import "../../styles/framework.scss";
+
+.Input {
+    border-radius: 10px;
+    background: $background-color-2;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: $text-color-1;
+    font-size: 16px;
+    min-width: 0;
+
+    &::placeholder {
+        color: $text-color-2;
+    }
+}
+
+.InputWithIcon {
+    display: flex;
+    align-items: center;
+
+    > .Icon {
+        svg path {
+            color: $text-color-3;
+        }
+        
+        width: 20px;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 14px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    > .Input {
+        border-radius: 0px 10px 10px 0px;
+    }
+}

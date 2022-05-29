@@ -1,0 +1,6 @@
+.Center {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+/*# sourceMappingURL=Center.css.map */

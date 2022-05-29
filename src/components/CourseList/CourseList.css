@@ -1,0 +1,16 @@
+.CourseList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.CourseList > .Course {
+  -ms-flex-preferred-size: 340px;
+      flex-basis: 340px;
+}
+/*# sourceMappingURL=CourseList.css.map */

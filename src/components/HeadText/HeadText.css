@@ -1,0 +1,22 @@
+.HeadText > .Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+}
+
+.HeadText > .Header span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.HeadText > .Header .line {
+  background: #51CCA3;
+  height: 25px;
+  width: 4px;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=HeadText.css.map */

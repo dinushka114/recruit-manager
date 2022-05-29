@@ -1,0 +1,33 @@
+@import "../styles/framework.scss";
+
+.View {
+    > .Background {
+        position: fixed;
+        inset: 0 0 0 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        z-index: -10;
+    }
+
+    > .Header {
+        margin-top: 60px;
+        margin-left: 60px;
+
+        display: flex;
+
+        > .Title {
+            h1 {
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+                font-weight: 300;
+                font-size: 32px;
+            }
+        }
+    }
+
+    > .Contents {
+        margin-top: 20px;
+    }
+}

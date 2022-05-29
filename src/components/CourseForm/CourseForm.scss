@@ -1,0 +1,72 @@
+@import "../../styles/framework.scss";
+
+.CourseForm {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .HeadText {
+        padding-bottom: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+
+        .row {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    .datesForm {
+        > div {
+            flex: .4;
+        }
+        input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+    .secondRow {
+        max-width: 500px;
+    }
+    #statusSelect {
+        font-size: 16px;
+        border: none;
+        padding: 10px 12px;
+        outline: none;
+        background: $background-color-2;
+        border-radius: 10px;
+    }
+    .buttons {
+        margin-top: 20px;
+        div {
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    .CloseIcon {
+        border: none;
+        font-size: 24px;
+        background: none;
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        cursor: pointer;
+    }
+    .error {
+        color: $red;
+        font-size: 14px;
+    }
+}

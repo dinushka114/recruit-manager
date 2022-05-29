@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,SADK,GACH,OAAO,CAAC;EAWN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,GAAG;CACX;;AAfL,AAEQ,SAFC,GACH,OAAO,CACL,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;CACnB;;AALT,AAMQ,SANC,GACH,OAAO,CAKL,KAAK,CAAC;EACF,UAAU,ECGX,OAAO;EDFN,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "HeadText.scss",
+        "../../styles/framework.scss"
+    ],
+    "names": [],
+    "file": "HeadText.css"
+}

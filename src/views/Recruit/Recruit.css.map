@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACI,YADQ,CACR,SAAS,CAAC;EACN,MAAM,EAAE,SAAS;CAOpB;;AATL,AAIQ,YAJI,CACR,SAAS,GAGH,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,IAAI;CACZ",
+    "sources": [
+        "Recruit.scss",
+        "../../styles/framework.scss"
+    ],
+    "names": [],
+    "file": "Recruit.css"
+}

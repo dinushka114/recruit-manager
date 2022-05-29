@@ -1,0 +1,19 @@
+@import "../../styles/framework.scss";
+
+.HeadText {
+    > .Header {
+        span {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .line {
+            background: $accent-1;
+            height: 25px;
+            width: 4px;
+            border-radius: 4px;
+        }
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../../styles/framework.scss";
+
+.Box {
+    background: $background-color-1;
+    box-shadow: $box-shadow-1;
+    border-radius: 10px;
+
+    &.NonePadding {
+        padding: 0;
+    }
+
+    &.SmallPadding {
+        padding: 20px;
+    }
+
+    &.DefaultPadding {
+        padding: 40px;
+    }
+}

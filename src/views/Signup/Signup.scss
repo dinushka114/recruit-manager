@@ -1,0 +1,53 @@
+@import "../../styles/framework.scss";
+
+.SignupBox {
+    > .form {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: flex-start;
+
+        > .section {
+            flex: 1;
+
+            > div:not(:first-child) {
+                margin-top: 30px;
+            }
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            
+            > .row {
+                display: flex;
+                gap: 10px;
+            }
+            input {
+                width: 93.5%;
+            }
+            .Error {
+                color: $red;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.SignupView {
+    .Center {
+        height: 700px;
+    }
+}
+
+.SubmitButton {
+    button {
+        text-align: center;
+        margin-top: 20px;
+        width: 25%;
+    }
+    display: flex;
+    justify-content: center;
+}

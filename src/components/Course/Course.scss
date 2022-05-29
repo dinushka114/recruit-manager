@@ -1,0 +1,47 @@
+@import "../../styles/framework.scss";
+
+.Course {
+    position: relative;
+    background: $background-color-1;
+    border-radius: 10px;
+    box-shadow: $box-shadow-1;
+    padding: 20px;
+
+    &.cursor {
+        cursor: pointer;
+    }
+
+    .statusColor {
+        position: absolute;
+        width: 20px;
+
+        left: 0;
+        bottom: 0;
+        top: 0;
+
+        border-radius: 10px 0px 0px 10px;
+
+        &[data-status="done"] {
+            background: $accent-1;
+        }
+        &[data-status="in progress"] {
+            background: $yellow;
+        }
+        &[data-status="deadline exceeded"] {
+            background: $red;
+        }
+    }
+
+    > .contents {
+        margin-left: 20px;
+        .head {
+            .number {
+                font-weight: 700;
+                color: $text-color-2;
+            }
+        }
+        .body {
+            margin-top: 10px;
+        }
+    }
+}

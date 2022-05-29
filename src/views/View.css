@@ -1,0 +1,30 @@
+.View > .Background {
+  position: fixed;
+  inset: 0 0 0 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  pointer-events: none;
+  z-index: -10;
+}
+
+.View > .Header {
+  margin-top: 60px;
+  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.View > .Header > .Title h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  font-size: 32px;
+}
+
+.View > .Contents {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=View.css.map */

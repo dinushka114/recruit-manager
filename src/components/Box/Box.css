@@ -1,0 +1,19 @@
+.Box {
+  background: #FAFAFA;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.Box.NonePadding {
+  padding: 0;
+}
+
+.Box.SmallPadding {
+  padding: 20px;
+}
+
+.Box.DefaultPadding {
+  padding: 40px;
+}
+/*# sourceMappingURL=Box.css.map */

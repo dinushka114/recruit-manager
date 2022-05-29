@@ -1,0 +1,70 @@
+.SignupBox > .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.SignupBox > .form > .section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.SignupBox > .form > .section > div:not(:first-child) {
+  margin-top: 30px;
+}
+
+.SignupBox > .form form {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.SignupBox > .form form > .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.SignupBox > .form form input {
+  width: 93.5%;
+}
+
+.SignupBox > .form form .Error {
+  color: #DF5656;
+  font-size: 14px;
+}
+
+.SignupView .Center {
+  height: 700px;
+}
+
+.SubmitButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SubmitButton button {
+  text-align: center;
+  margin-top: 20px;
+  width: 25%;
+}
+/*# sourceMappingURL=Signup.css.map */

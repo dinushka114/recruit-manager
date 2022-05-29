@@ -1,0 +1,47 @@
+.Course {
+  position: relative;
+  background: #FAFAFA;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.Course.cursor {
+  cursor: pointer;
+}
+
+.Course .statusColor {
+  position: absolute;
+  width: 20px;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.Course .statusColor[data-status="done"] {
+  background: #51CCA3;
+}
+
+.Course .statusColor[data-status="in progress"] {
+  background: #ECD277;
+}
+
+.Course .statusColor[data-status="deadline exceeded"] {
+  background: #DF5656;
+}
+
+.Course > .contents {
+  margin-left: 20px;
+}
+
+.Course > .contents .head .number {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.Course > .contents .body {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Course.css.map */

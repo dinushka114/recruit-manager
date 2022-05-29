@@ -1,0 +1,12 @@
+@import "../../styles/framework.scss";
+
+.CourseList {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+    align-items: flex-start;
+
+    > .Course {
+        flex-basis: 340px;
+    }
+}

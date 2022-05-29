@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import "./framework.scss";
+
+* {
+    font-family: "Nunito";
+    color: $text-color-1;
+    margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,99 @@
+.CourseForm {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.CourseForm .HeadText {
+  padding-bottom: 20px;
+}
+
+.CourseForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.CourseForm form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+}
+
+.CourseForm form .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.CourseForm .datesForm > div {
+  -webkit-box-flex: .4;
+      -ms-flex: .4;
+          flex: .4;
+}
+
+.CourseForm .datesForm input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.CourseForm .secondRow {
+  max-width: 500px;
+}
+
+.CourseForm #statusSelect {
+  font-size: 16px;
+  border: none;
+  padding: 10px 12px;
+  outline: none;
+  background: #F0F0F0;
+  border-radius: 10px;
+}
+
+.CourseForm .buttons {
+  margin-top: 20px;
+}
+
+.CourseForm .buttons div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.CourseForm .CloseIcon {
+  border: none;
+  font-size: 24px;
+  background: none;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.CourseForm .error {
+  color: #DF5656;
+  font-size: 14px;
+}
+/*# sourceMappingURL=CourseForm.css.map */

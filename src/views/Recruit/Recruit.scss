@@ -1,0 +1,13 @@
+@import "../../styles/framework.scss";
+
+.RecruitView {
+    .Contents {
+        margin: 20px 60px;
+
+        > .header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
